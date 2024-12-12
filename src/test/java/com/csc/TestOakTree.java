@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 
 public class TestOakTree {
 
-  OakTree tree;
+  OakTree<Squirrel> tree;
 
   @BeforeEach
   void setUp() {
-    tree = new OakTree();
+    tree = new OakTree<>();
   }
 
   @Test
